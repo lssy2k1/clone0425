@@ -1,0 +1,180 @@
+[2023-04-25 15:39:00:1267][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2023-04-25 15:39:00:1315][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+[2023-04-25 15:39:00:1325][restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[2023-04-25 15:39:00:1331][restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[2023-04-25 15:39:10:11293][http-nio-8088-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2023-04-25 15:39:10:11295][http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+[2023-04-25 15:39:10:11295][http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+[2023-04-25 15:39:10:11295][http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+[2023-04-25 15:39:10:11296][http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@ba59ae5
+[2023-04-25 15:39:10:11297][http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@6d2ca2f8
+[2023-04-25 15:39:10:11297][http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2023-04-25 15:39:10:11297][http-nio-8088-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[2023-04-25 15:39:10:11307][http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/", parameters={}
+[2023-04-25 15:39:10:11314][http-nio-8088-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#main()
+[2023-04-25 15:39:10:11334][http-nio-8088-exec-1] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-04-25 15:39:10:11334][http-nio-8088-exec-1] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {}
+[2023-04-25 15:39:10:11336][http-nio-8088-exec-1] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-04-25 15:39:11:12387][http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/vendor/fontawesome-free/css/all.min.css", parameters={}
+[2023-04-25 15:39:11:12388][http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/css/sb-admin-2.min.css", parameters={}
+[2023-04-25 15:39:11:12392][http-nio-8088-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:11:12392][http-nio-8088-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:11:12396][http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/img/undraw_profile_2.svg", parameters={}
+[2023-04-25 15:39:11:12396][http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/img/undraw_profile_1.svg", parameters={}
+[2023-04-25 15:39:11:12396][http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/img/undraw_rocket.svg", parameters={}
+[2023-04-25 15:39:11:12398][http-nio-8088-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:11:12398][http-nio-8088-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:11:12398][http-nio-8088-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:11:12412][http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:11:12418][http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/img/undraw_profile_3.svg", parameters={}
+[2023-04-25 15:39:11:12420][http-nio-8088-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:11:12427][http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:11:12430][http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:11:12431][http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:11:12433][http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:11:12434][http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:11:12476][http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/vendor/fontawesome-free/webfonts/fa-solid-900.woff2", parameters={}
+[2023-04-25 15:39:11:12477][http-nio-8088-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:11:12496][http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:11:12511][http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:11:12514][http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/img/undraw_profile.svg", parameters={}
+[2023-04-25 15:39:11:12514][http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/img/undraw_posting_photo.svg", parameters={}
+[2023-04-25 15:39:11:12514][http-nio-8088-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:11:12514][http-nio-8088-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:11:12515][http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/vendor/jquery/jquery.min.js", parameters={}
+[2023-04-25 15:39:11:12517][http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/sb-admin-2.min.js", parameters={}
+[2023-04-25 15:39:11:12518][http-nio-8088-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:11:12519][http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/vendor/bootstrap/js/bootstrap.bundle.min.js", parameters={}
+[2023-04-25 15:39:11:12520][http-nio-8088-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:11:12519][http-nio-8088-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:11:12522][http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/vendor/jquery-easing/jquery.easing.min.js", parameters={}
+[2023-04-25 15:39:11:12522][http-nio-8088-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:11:12531][http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:11:12533][http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/vendor/chart.js/Chart.min.js", parameters={}
+[2023-04-25 15:39:11:12534][http-nio-8088-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:11:12539][http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:11:12541][http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:11:12541][http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/demo/chart-area-demo.js", parameters={}
+[2023-04-25 15:39:11:12542][http-nio-8088-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:11:12542][http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:11:12546][http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/demo/chart-pie-demo.js", parameters={}
+[2023-04-25 15:39:11:12546][http-nio-8088-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:11:12547][http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:11:12577][http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:11:12587][http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:11:12607][http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:11:12620][http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:12:13180][http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/favicon.ico", parameters={}
+[2023-04-25 15:39:12:13180][http-nio-8088-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:12:13185][http-nio-8088-exec-7] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+[2023-04-25 15:39:12:13185][http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+[2023-04-25 15:39:12:13186][http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[2023-04-25 15:39:12:13188][http-nio-8088-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+[2023-04-25 15:39:12:13206][http-nio-8088-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 15:39:12:13206][http-nio-8088-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Tue Apr 25 15:39:12 KST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+[2023-04-25 15:39:12:13304][http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[2023-04-25 15:39:15:16716][http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/charts", parameters={}
+[2023-04-25 15:39:15:16718][http-nio-8088-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#charts(Model)
+[2023-04-25 15:39:15:16720][http-nio-8088-exec-1] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-04-25 15:39:15:16720][http-nio-8088-exec-1] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {center=charts}
+[2023-04-25 15:39:15:16721][http-nio-8088-exec-1] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-04-25 15:39:15:16740][http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/vendor/fontawesome-free/css/all.min.css", parameters={}
+[2023-04-25 15:39:15:16741][http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/css/sb-admin-2.min.css", parameters={}
+[2023-04-25 15:39:15:16741][http-nio-8088-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:15:16741][http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/img/undraw_profile_2.svg", parameters={}
+[2023-04-25 15:39:15:16742][http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/img/undraw_rocket.svg", parameters={}
+[2023-04-25 15:39:15:16742][http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/img/undraw_profile_1.svg", parameters={}
+[2023-04-25 15:39:15:16742][http-nio-8088-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:15:16743][http-nio-8088-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:15:16743][http-nio-8088-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:15:16743][http-nio-8088-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:15:16746][http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:15:16747][http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:15:16747][http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:15:16747][http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:15:16748][http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/img/undraw_profile_3.svg", parameters={}
+[2023-04-25 15:39:15:16750][http-nio-8088-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:15:16750][http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:15:16754][http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:15:16776][http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/vendor/fontawesome-free/webfonts/fa-solid-900.woff2", parameters={}
+[2023-04-25 15:39:15:16776][http-nio-8088-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:15:16779][http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:15:16815][http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:15:16821][http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/vendor/jquery-easing/jquery.easing.min.js", parameters={}
+[2023-04-25 15:39:15:16821][http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/vendor/jquery/jquery.min.js", parameters={}
+[2023-04-25 15:39:15:16821][http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/vendor/bootstrap/js/bootstrap.bundle.min.js", parameters={}
+[2023-04-25 15:39:15:16821][http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/vendor/chart.js/Chart.min.js", parameters={}
+[2023-04-25 15:39:15:16821][http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/sb-admin-2.min.js", parameters={}
+[2023-04-25 15:39:15:16821][http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/img/undraw_profile.svg", parameters={}
+[2023-04-25 15:39:15:16821][http-nio-8088-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:15:16821][http-nio-8088-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:15:16821][http-nio-8088-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:15:16821][http-nio-8088-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:15:16822][http-nio-8088-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:15:16822][http-nio-8088-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:15:16824][http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:15:16824][http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:15:16825][http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:15:16825][http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:15:16826][http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:15:16826][http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:15:16827][http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/demo/chart-area-demo.js", parameters={}
+[2023-04-25 15:39:15:16827][http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/demo/chart-pie-demo.js", parameters={}
+[2023-04-25 15:39:15:16827][http-nio-8088-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:15:16828][http-nio-8088-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:15:16829][http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:15:16830][http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:18:19076][http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/tables", parameters={}
+[2023-04-25 15:39:18:19076][http-nio-8088-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.ItemController#main(Model)
+[2023-04-25 15:39:18:19077][http-nio-8088-exec-6] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-04-25 15:39:18:19089][http-nio-8088-exec-6] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {itemlist=[Item(id=100, name=pasta1, price=1001, imgname=a.jpg, regdate=Tue Apr 25 15:39:18 KST 2023), Item(id=101, name=pasta2, price=1002, imgname=a.jpg, regdate=Tue Apr 25 15:39:18 KST 2023), Item(id=102, name=pasta3, price=1003, imgname=a.jpg, regdate=Tue Apr 25 15:39:18 KST 2023), Item(id=103, name=pasta4, price=1004, imgname=a.jpg, regdate=Tue Apr 25 15:39:18 KST 2023), Item(id=104, name=pasta5, price=1005, imgname=a.jpg, regdate=Tue Apr 25 15:39:18 KST 2023), Item(id=105, name=pasta6, price=1006, imgname=a.jpg, regdate=Tue Apr 25 15:39:18 KST 2023), Item(id=106, name=pasta7, price=1007, imgname=a.jpg, regdate=Tue Apr 25 15:39:18 KST 2023), Item(id=107, name=pasta8, price=1008, imgname=a.jpg, regdate=Tue Apr 25 15:39:18 KST 2023), Item(id=108, name=pasta9, price=1009, imgname=a.jpg, regdate=Tue Apr 25 15:39:18 KST 2023), Item(id=109, name=pasta0, price=10010, imgname=a.jpg, regdate=Tue Apr 25 15:39:18 KST 2023), Item(id=111, name=pasta11, price=10020, imgname=a.jpg, regdate=Tue Apr 25 15:39:18 KST 2023), Item(id=112, name=pasta12, price=10030, imgname=a.jpg, regdate=Tue Apr 25 15:39:18 KST 2023), Item(id=113, name=pasta13, price=10040, imgname=a.jpg, regdate=Tue Apr 25 15:39:18 KST 2023), Item(id=114, name=pasta14, price=10050, imgname=a.jpg, regdate=Tue Apr 25 15:39:18 KST 2023), Item(id=115, name=pasta15, price=10060, imgname=a.jpg, regdate=Tue Apr 25 15:39:18 KST 2023), Item(id=116, name=pasta16, price=10070, imgname=a.jpg, regdate=Tue Apr 25 15:39:18 KST 2023)], center=tables}
+[2023-04-25 15:39:18:19089][http-nio-8088-exec-6] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-04-25 15:39:18:19104][http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/vendor/fontawesome-free/css/all.min.css", parameters={}
+[2023-04-25 15:39:18:19106][http-nio-8088-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:18:19106][http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/css/sb-admin-2.min.css", parameters={}
+[2023-04-25 15:39:18:19107][http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/img/undraw_profile_2.svg", parameters={}
+[2023-04-25 15:39:18:19107][http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/img/undraw_profile_1.svg", parameters={}
+[2023-04-25 15:39:18:19107][http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/img/undraw_rocket.svg", parameters={}
+[2023-04-25 15:39:18:19107][http-nio-8088-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:18:19107][http-nio-8088-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:18:19108][http-nio-8088-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:18:19108][http-nio-8088-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:18:19109][http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:18:19110][http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/img/undraw_profile_3.svg", parameters={}
+[2023-04-25 15:39:18:19110][http-nio-8088-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:18:19118][http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:18:19118][http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:18:19118][http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:18:19118][http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:18:19120][http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:18:19146][http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/vendor/fontawesome-free/webfonts/fa-solid-900.woff2", parameters={}
+[2023-04-25 15:39:18:19146][http-nio-8088-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:18:19150][http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:18:19334][http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:18:19337][http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/img/a.jpg", parameters={}
+[2023-04-25 15:39:18:19337][http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/vendor/jquery/jquery.min.js", parameters={}
+[2023-04-25 15:39:18:19337][http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/img/undraw_profile.svg", parameters={}
+[2023-04-25 15:39:18:19337][http-nio-8088-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:18:19337][http-nio-8088-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:18:19337][http-nio-8088-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:18:19339][http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/vendor/jquery-easing/jquery.easing.min.js", parameters={}
+[2023-04-25 15:39:18:19339][http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/vendor/bootstrap/js/bootstrap.bundle.min.js", parameters={}
+[2023-04-25 15:39:18:19339][http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/sb-admin-2.min.js", parameters={}
+[2023-04-25 15:39:18:19340][http-nio-8088-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:18:19340][http-nio-8088-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:18:19340][http-nio-8088-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:18:19340][http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:18:19341][http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:18:19341][http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/vendor/chart.js/Chart.min.js", parameters={}
+[2023-04-25 15:39:18:19341][http-nio-8088-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:18:19341][http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:18:19341][http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:18:19342][http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/demo/chart-area-demo.js", parameters={}
+[2023-04-25 15:39:18:19342][http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:18:19342][http-nio-8088-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:18:19343][http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/demo/chart-pie-demo.js", parameters={}
+[2023-04-25 15:39:18:19343][http-nio-8088-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 15:39:18:19343][http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:18:19344][http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:18:19345][http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 15:39:18:19346][http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
